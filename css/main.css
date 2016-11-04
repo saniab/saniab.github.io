@@ -1,0 +1,208 @@
+html, body {
+  overflow-x: hidden;
+}
+
+body{
+	font-family: Arial;
+	background-color:  #f2e6ff;
+	color: #bfbfbf;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	background-color:  #a6a6a6;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	list-style-type: none;
+}
+nav li {
+	float: left;
+}
+nav li a{
+	display: block;
+	color: # #f2f2f2;
+	text-align: center;
+	padding:14px 16px;
+	text-decoration: none;
+	
+}
+
+.mainbody {
+	background-image: url("../img/profile.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+#name {
+	color: #f2f2f2;
+	font-family: cursive;
+	font-size: 80px;
+	/*padding-left: 40px;*/
+	padding-top: 80px;
+	text-align: center;
+}
+.heading {
+	padding-top: 50px;
+	padding-left: 150px;
+	text-transform: uppercase;
+	font-size: 30px;
+	font-style: italic;
+}
+
+.about {
+	padding-top: 30px;
+	padding-left: 200px;
+	padding-right: 270px;
+
+}
+.aboutmeimg {
+	width: 100%;
+}
+
+
+/*.aboutmetext {
+	width: 50%;
+	font-size: 20px;
+}*/
+
+.ghc {
+	padding-bottom: 50px;
+}
+
+}
+.ghcimg > img{
+	width: 20%;
+	margin: 0 auto;
+}
+
+#ghcactualimage{
+	width: 20%;
+	text-align: center;
+}
+
+.ghctext {
+	float: center;
+	font-size: 20px;
+}
+
+.ghctext p{
+	font-style: italic;
+}
+
+/*.deloitte {
+ 	padding: 50px 190px 0 0;
+}*/
+
+.deloittetext {
+	/*width: 75%;*/
+	font-size: 20px;
+}
+
+/*.deloitteimg {
+	width: 50%;
+}*/
+
+#deloitteimg{
+	max-width: 200px;
+}
+
+.deloittetext p{
+	font-style: italic;
+}
+
+.contact {
+	padding-left: 200px;
+}
+
+/* Responsive Break point*/
+/* Phone Breakpoint */
+@media only screen and (max-width: 600px){
+
+	.deloittetext{
+		width: 75%;
+	}
+
+	.heading{
+		padding-left: 10px;
+	}
+
+	#name{
+		font-size: 3em;
+	}
+
+	.about {
+		padding: 10px;
+		float: left;
+	}
+	.aboutmeimg img{
+		/*width: 100%;*/
+		margin: 0 auto;
+		width: 250px;
+	}
+	.aboutmetext{
+		font-size: 1em;
+	}
+	.contact {
+		padding-left: 50px;
+	}
+}
+
+/* Tablet Breakpoint */
+@media screen and (min-width: 600px) and (max-width: 1024px){
+	.ghctext p{
+		max-width: 800px;
+	}
+
+	.deloittetext p{
+		max-width: 800px;
+	}
+
+	#name{
+		font-size: 6em;
+	}
+	.about {
+		padding: 70px;
+	}
+	.aboutmeimg {
+		width: 70%;
+
+	}
+	.aboutmetext {
+		width: 100%;
+	}
+
+}
+
+/* Desktop Breakpoint */
+@media screen and (min-width: 1024px) and (max-width: 1300px){
+	.ghc{
+		padding-left: 150px;
+	}
+
+	.deloitte{
+		padding-left: 150px;
+	}
+
+	.deloittetext p{
+		max-width: 900px;
+	}
+	#name{
+		font-size: 8em;
+	}
+
+	.about {
+		padding: 70px;
+	}
+	.aboutmeimg {
+		width: 70%;
+	}
+	.aboutmetext {
+		width: 100%;
+	}
+
+}
+
+}
